@@ -42,7 +42,7 @@ public class Mathemagic {
 
 
     public static double conicVol(double radius, int height) {
-        return  PI * radius * height;
+        return (PI * (radius * radius) * height) / 3;
     }
 
 
