@@ -47,7 +47,7 @@ public class Mathemagic {
 
 
     public static double cubicBarrier(int edge) {
-        return 0;
+        return 6 * (edge * edge);
     }
 
 
