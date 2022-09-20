@@ -32,12 +32,12 @@ public class Mathemagic {
 
 
     public static double periRect(int length, int width) {
-        return 0;
+        return length + length + width + width;
     }
 
 
     public static double trapArea(int base1, int base2, int height) {
-        return 0;
+        return base1 + base2 * height ;
     }
 
 
