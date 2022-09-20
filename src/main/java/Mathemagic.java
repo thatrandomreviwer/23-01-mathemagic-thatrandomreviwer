@@ -36,13 +36,13 @@ public class Mathemagic {
     }
 
 
-    public static double trapArea(int base1, int base2, int height) {
-        return base1 + base2 * height ;
+    public static double trapArea(double base1, double base2, double height) {
+        return (base1 + base2) / 2 * height;
     }
 
 
     public static double conicVol(double radius, int height) {
-        return 0;
+        return  PI * radius * height;
     }
 
 
