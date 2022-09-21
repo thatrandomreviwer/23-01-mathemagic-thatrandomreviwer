@@ -62,8 +62,8 @@ public class Mathemagic {
 
 
     public static double elevationVect(int x1, int y1, int x2, int y2) {
-        return 0;
+        return (y2 - y1) / (x2 - x1);
     }
 
 
-}//end of class
+}
