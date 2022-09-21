@@ -52,7 +52,7 @@ public class Mathemagic {
 
 
     public static double blastArea(double radius) {
-        return 0;
+        return PI * (radius * radius);
     }
 
 
