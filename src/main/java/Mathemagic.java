@@ -57,7 +57,7 @@ public class Mathemagic {
 
 
     public static double atmoShift(double fahr) {
-        return 0;
+        return (fahr - 32) * 5 / 9;
     }
 
 
